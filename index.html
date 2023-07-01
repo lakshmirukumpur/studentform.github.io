@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+    
+        <body style="background-color:lightcoral;">
+            <head>
+                <style>
+                    input[type="text"]
+                    {
+
+                        width=60%
+
+                    }
+                    input[type="text"]:focus
+                    {
+                        background-color:light blue ;
+                    }
+
+
+
+                </style>
+
+
+
+
+            </head>
+            <center>
+                <h1>Sample Registration Form</h1>
+                <form>
+                    <fieldset style="width: 50%;">
+                        <legend>Personal Information</legend>
+                        <label>Enter Firstname::</label>
+                        <input type="text" id="fname" name="fname" value="" placeholder="Enter fname" required>
+                        <br><br>
+
+                        <label>Enter Lastname::</label>
+                        <input type="text" id="lname" name="lname">
+                        <br><br>
+
+                        <label>Enter Adress::</label>
+                        <textarea rows="3" cols="15"></textarea>
+                        <br><br>
+
+                        <label>Gender::</label>
+                        <input type="radio" name="gender" id="gender" value="male">Male
+                        <input type="radio" name="gender" id="gender"  value="female">Female
+                        <br><br>
+
+                        <label>Date of Birth::</label>
+                        <input type="date" id="mm" name="yy" value="dd">
+                        <br><br>
+
+                        <label>E-mail</label>
+                        <input type="email" id="mm" name="mm">
+                        <br><br>
+
+                        <label>Qualification::</label>
+                        <input type="radio" id="10" name="10">10
+                        <input type="radio" id="10" name="10">PUC
+                        <br><br>
+                        
+                        <label>Enter Course::</label>
+                        <select style="width: 20%;">
+                        <option>Diploma</option>
+                        <option>Engineering</option>
+                        </select>
+                        <br><br>
+                        
+                        <label>Enter Department::</label>
+                        <select style="width: 20%;">
+                        <option selected>Electronics</option>
+                        <option>Electrical</option>
+                        <option>Computer</option>
+                        <option>Mechanical</option>
+                        </select>
+
+                        <br><br>
+                        <label>Enter Mobile no.::</label>
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        <br><br>
+                        <input type="reset" value="RESET">
+                        <input type="submit" value="SUBMIT">
+
+                    </fieldset>
+            
+
+                        </form>
+            </center>
+
+
+    </body>
+
+
+
+
+
+
+</html>
